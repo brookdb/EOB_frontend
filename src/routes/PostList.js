@@ -34,6 +34,7 @@ function PostsList() {
         if (searchTerm) {
           url += `&search=${searchTerm}`;
         }
+        console.log(url);
 
         const data = await fetchPosts(url);
 

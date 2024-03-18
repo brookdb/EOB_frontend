@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_BASE_URL = "eo-backend-7a2f14a16898.herokuapp.com";
+export const API_BASE_URL = "https://eo-backend-7a2f14a16898.herokuapp.com";
 
 export const fetchPosts = (url) => {
   return axios
